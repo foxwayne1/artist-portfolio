@@ -30,6 +30,7 @@ a.active {
 .navbar {
   margin: 32px;
 }
+
 .gallery {
   padding: 0 20px 0 20px;
 }
@@ -51,6 +52,7 @@ a.active {
   display: inline-block;
   margin: 8px 0 16px 0;
 }
+
 .about {
   width: 40%;
   min-width: 600px;
@@ -59,15 +61,15 @@ a.active {
 .about h3 {
   font-size: 40px;
 }
+.about .cta {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #131313;
+  margin-top: 32px;
+}
 .contact {
   margin-top: 100px;
 }
 .contact p {
   margin: 0;
   font-size: 20px;
-}
-.cta {
-  padding-bottom: 8px;
-  border-bottom: 2px solid #131313;
-  margin-top: 32px;
 }
