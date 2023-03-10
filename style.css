@@ -2,7 +2,8 @@ body {
   font-family: 'Cormorant', serif;
 }
 h1,
-h2 {
+h2,
+h3 {
   display: inline-block;
   font-weight: 300;
   margin: 0 32px 0 0;
@@ -43,7 +44,30 @@ a.active {
   width: 100%;
   object-fit: cover;
 }
+.card img:hover {
+  opacity: 0.9;
+}
 .card h2 {
   display: inline-block;
   margin: 8px 0 16px 0;
+}
+.about {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 100px 200px;
+}
+.about h3 {
+  font-size: 40px;
+}
+.contact {
+  margin-top: 100px;
+}
+.contact p {
+  margin: 0;
+  font-size: 20px;
+}
+.cta {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #131313;
+  margin-top: 32px;
 }
