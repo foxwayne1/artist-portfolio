@@ -1,7 +1,8 @@
 body {
   font-family: 'Cormorant', serif;
 }
-h1 {
+h1,
+h2 {
   display: inline-block;
   font-weight: 300;
   margin: 0 32px 0 0;
@@ -28,7 +29,9 @@ a.active {
 .navbar {
   margin: 32px;
 }
-
+.gallery {
+  padding: 0 20px 0 20px;
+}
 .card {
   width: 49.75%;
   display: inline-block;
@@ -38,7 +41,9 @@ a.active {
 .card img {
   height: 500px;
   width: 100%;
+  object-fit: cover;
 }
 .card h2 {
   display: inline-block;
+  margin: 8px 0 16px 0;
 }
